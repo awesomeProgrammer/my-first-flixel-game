@@ -112,7 +112,7 @@ class PlayState extends FlxState
 		{
 			// gets call before we create the game
 			// adds all the enemyies to the group/array
-			//_grpEnemies.add(new Enemy(x + 4, y, Std.parseInt(entityData.get("etype"))));
+			_grpEnemies.add(new Enemy(x + 4, y, Std.parseInt(entityData.get("etype"))));		
 		}
 		
 	}

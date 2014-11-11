@@ -19,7 +19,7 @@ class Enemy extends FlxSprite
 		super(X, Y);
 		etype = EType;
 		// art assets
-		loadGraphic("assets/imgaes/enemy-" +Std.string(etype) + ".png", true, 16, 16);
+		loadGraphic("assets/images/enemy-" +Std.string(etype) + ".png", true, 16, 16);
 		setFacingFlip(FlxObject.LEFT, false, false);
 		setFacingFlip(FlxObject.RIGHT, true, false);
 		
